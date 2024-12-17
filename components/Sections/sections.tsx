@@ -16,10 +16,10 @@ export default function Sections() {
     { image: Gym, label: "Gym", style: "col-span-2 md:col-span-2" },
   ];
   const sectionsXL = [
-    { image: CasualXL, label: "Casual", style: "col-span-2" },
-    { image: FormalXL, label: "Formal", style: "col-span-3 " },
-    { image: PartyXL, label: "Party", style: "col-span-3" },
-    { image: GymXL, label: "Gym", style: "col-span-2" },
+    { image: CasualXL, label: "CasualXL", style: "col-span-2" },
+    { image: FormalXL, label: "FormalXL", style: "col-span-3 " },
+    { image: PartyXL, label: "PartyXL", style: "col-span-3" },
+    { image: GymXL, label: "GymXL", style: "col-span-2" },
   ];
 
   return (
