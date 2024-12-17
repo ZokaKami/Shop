@@ -9,7 +9,11 @@ export default function Brands() {
   return (
     <div className="bg-black flex flex-wrap  space-x-4  py-8   px-2 justify-around">
       {List.map((index) => (
-        <img className=" h-[25px] mt-2 md:h-1/2 xl:h-2/3" src={index} alt="" />
+        <img
+          className=" h-[25px] mt-2 md:h-1/2 xl:h-2/3"
+          src={index}
+          alt={index}
+        />
       ))}
     </div>
   );
