@@ -9,7 +9,7 @@ export default function FooterRights() {
   const images = [Badge, Badge1, Badge2, Badge3, Badge4];
   return (
     <div className="text-gray-600 flex pt-2 flex-col items-center text-[16px]">
-      <h1>Shop.co © 2000-2023, All Rights Reserved</h1>
+      <h1>Shop.co © 2000-2023, All Rights Reservedd</h1>
       <div className="flex pt-4 pb-12">
         {images.map((badge) => (
           <img src={badge} alt="" />
