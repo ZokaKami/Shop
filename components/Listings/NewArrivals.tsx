@@ -12,7 +12,7 @@ export default function NewArrivals() {
         {NewArrivalsJson.map((i) => (
           <div className=" w-full  space-y-2 font-satoshi">
             <div>
-              <img src={i.image} className="w-full" alt="" />
+              <img src={i.image} className="w-full" alt={i.name} />
             </div>
             <div className="md:text-md xl:text-xl space-y-[4px]">
               <p className="font-bold ">{i.name} </p>

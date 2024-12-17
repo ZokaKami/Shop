@@ -37,7 +37,11 @@ export default function Hero() {
         </div>
       </div>
       <div className="h-full w-full object-cover  md:pl-12">
-        <img className="object-cover h-full w-full  " src={HeroImgXL} alt="" />
+        <img
+          className="object-cover h-full w-full  "
+          src={HeroImgXL}
+          alt="HeroImg"
+        />
       </div>
     </div>
   );

@@ -47,10 +47,10 @@ export default function Header() {
           <img src={SearchIcon} alt="SearchIcon" />
         </button>
         <button className=" size-6">
-          <img src={CartIcon} alt="" />
+          <img src={CartIcon} alt="CartIcon" />
         </button>
         <button className=" size-6">
-          <img src={AccountIcon} alt="" />
+          <img src={AccountIcon} alt="AccountIcon" />
         </button>
       </div>
     </div>

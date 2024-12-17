@@ -14,10 +14,10 @@ export default function Reviews() {
         {/* Arrows */}
         <div className="flex space-x-4  mt-8 sm:mt-0">
           <button aria-label="Back">
-            <img src={ArrowLeft} className="w-8 h-6" alt="" />
+            <img src={ArrowLeft} className="w-8 h-6" alt="ArrowLeft" />
           </button>
           <button aria-label="Next">
-            <img src={ArrowRight} className="w-8 h-6" alt="" />
+            <img src={ArrowRight} className="w-8 h-6" alt="ArrowRight" />
           </button>
         </div>
       </div>
