@@ -44,7 +44,7 @@ export default function Header() {
       </div>
       <div className="    flex items-center md:pl-4  space-x-2">
         <button className=" size-6 md:hidden">
-          <img src={SearchIcon} alt="" />
+          <img src={SearchIcon} alt="SearchIcon" />
         </button>
         <button className=" size-6">
           <img src={CartIcon} alt="" />
