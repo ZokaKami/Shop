@@ -9,6 +9,7 @@ import Reviews from "../components/Reviews/reviews.tsx"
 import Newsletter from "../components/Newsletter/newsletter.tsx"
 import Socials from "../components/Socials/socials.tsx"
 import Footer from "../components/Footer/footer.tsx"
+import FooterRights from "../components/Footer/footerRights.tsx"
 import './App.css'
 import React from "react"
 
@@ -16,18 +17,28 @@ function App() {
  
 
   return (
-    <>
-      <Header/>
-      <Hero/>
+    <div  >
+      <Header/> 
+      
+      <Hero />
+     
       <Brands/>
       <NewArrivals/>
       <TopSelling/>
       <Sections/>
       <Reviews/>
       <Newsletter/>
-      <Socials/>
-      <Footer/>
-    </>
+      <div className="md:grid md:grid-cols-6 bg-[#F2F0F1]   md:pt-8">
+      <div className="col-span-2">
+        <Socials/>
+       </div>
+       <div className="col-span-4">
+       <Footer/> 
+       </div>
+         
+      </div>
+      <FooterRights/>
+    </div>
   )
 }
 

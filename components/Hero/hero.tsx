@@ -10,7 +10,7 @@ export default function Hero() {
   ];
 
   return (
-    <div className="  bg-[#F2F0F1] md:grid grid-cols-2 md:pl-[100px] transition-all   duration-300 ease-in-out">
+    <div className="px-4 md:px-12 xl:px-16    md:grid grid-cols-2 bg-[#F2F0F1]  transition-all   duration-300 ease-in-out">
       <div className="flex flex-col justify-between px-4   md:pt-[25%] md:pb-[10%]  lg:pt-[15%]  md:gap-6  md:pr-8">
         <div className="py-4 lg:pr-24">
           <h1 className="text-3xl   md:text-[2rem] lg:text-[4rem]/[3.5rem] md:pb-8  font-extrabold py-2   tracking-tight  ">

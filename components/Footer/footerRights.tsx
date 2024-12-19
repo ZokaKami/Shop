@@ -8,9 +8,9 @@ import Badge1 from "../images/Footer/Badge-1.png";
 export default function FooterRights() {
   const images = [Badge, Badge1, Badge2, Badge3, Badge4];
   return (
-    <div className="text-gray-600 flex pt-2 flex-col items-center text-[16px]">
+    <div className="px-4 md:px-12 xl:px-16 md:pb-16 md:pt-4 text-gray-600 flex pt-2 flex-col md:flex-row items-center md:justify-between text-[16px] bg-[#F2F0F1] border-t-2">
       <h1>Shop.co © 2000-2023, All Rights Reservedd</h1>
-      <div className="flex pt-4 pb-12">
+      <div className="flex pt-4 md:pt-0 pb-12 md:pb-0">
         {images.map((badge) => (
           <img src={badge} alt="" />
         ))}

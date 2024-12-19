@@ -33,10 +33,10 @@ export default function Socials() {
   ];
 
   return (
-    <div className="px-4 bg-[#F2F0F1] pt-8">
-      <div>
+    <div className=" px-4 md:pl-12 xl:pl-16  pt-8 md:pt-0   ">
+      <div className="space-y-4">
         <h1 className="text-[1.8rem] tracking-tight font-extrabold">SHOP.CO</h1>
-        <p className="text-[#818181]">
+        <p className="text-[#818181] xl:w-2/3">
           We have clothes that suits your style and which you’re proud to wear.
           From women to men.
         </p>

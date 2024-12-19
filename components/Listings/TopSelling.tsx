@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faStarHalf } from "@fortawesome/free-solid-svg-icons";
 export default function TopSelling() {
   return (
-    <div className="border-b-2 md:pb-12 px-16">
+    <div className="border-b-2 md:pb-12 px-4 md:px-12 xl:px-16 ">
       <div className="font-extrabold text-4xl lg:text-5xl text-center pt-8 pb-6 md:pt-24 md:pb-16 ">
         <h1>TOP SELLING</h1>
       </div>

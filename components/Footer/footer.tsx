@@ -30,12 +30,14 @@ export default function Footer() {
     },
   ];
   return (
-    <div className="bg-[#F2F0F1]">
-      <div className="grid grid-cols-2 md:grid-cols-4 font-satoshi gap-4 text-sm   p-4">
+    <div className="w-full px-4 md:px-12 xl:px-16 md:pb-4">
+      <div className="grid grid-cols-2 md:flex md:justify-between font-satoshi gap-4 text-sm     p-4">
         {sections.map((section, index) => (
           <div key={index}>
-            <h3 className="font-[500] mb-2 tracking-widest">{section.title}</h3>
-            <ul className="space-y-2">
+            <h3 className="font-[500] mb-2 md:mb-4 tracking-widest">
+              {section.title}
+            </h3>
+            <ul className="space-y-2 xl:space-y-4">
               {section.links.map((link, linkIndex) => (
                 <li key={linkIndex} className="text-gray-600  ">
                   <a href={link}>{link}</a>
@@ -45,7 +47,6 @@ export default function Footer() {
           </div>
         ))}
       </div>
-      <FooterRights />
     </div>
   );
 }
