@@ -33,7 +33,7 @@ export default function Socials() {
   ];
 
   return (
-    <div className=" px-4 md:pl-12 xl:pl-16  pt-8 md:pt-0   ">
+    <div className=" px-8 md:pl-16 xl:pl-24  pt-8 md:pt-0   ">
       <div className="space-y-4">
         <h1 className="text-[1.8rem] tracking-tight font-extrabold">SHOP.CO</h1>
         <p className="text-[#818181] xl:w-2/3">

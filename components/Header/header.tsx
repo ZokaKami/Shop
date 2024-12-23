@@ -8,7 +8,7 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
   return (
-    <div className="flex py-4   md:justify-between px-4 md:px-12 xl:px-16">
+    <div className="flex py-4   md:justify-between px-8 md:px-16 xl:px-24">
       <div className="flex items-center md:hidden">
         <button className=" size-6  ">
           <img src={DropdownIcon} alt="" />

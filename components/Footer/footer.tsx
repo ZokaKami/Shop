@@ -30,7 +30,7 @@ export default function Footer() {
     },
   ];
   return (
-    <div className="w-full px-4 md:px-12 xl:px-16 md:pb-4">
+    <div className="w-full px-8 md:px-16 xl:px-24 md:pb-4">
       <div className="grid grid-cols-2 md:flex md:justify-between font-satoshi gap-4 text-sm     p-4">
         {sections.map((section, index) => (
           <div key={index}>

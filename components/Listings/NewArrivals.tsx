@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faStarHalf } from "@fortawesome/free-solid-svg-icons";
 export default function NewArrivals() {
   return (
-    <div className="border-b-2 md:pb-12  px-4 md:px-12 xl:px-16">
+    <div className="    px-8 md:px-16 xl:px-24">
       <div className="font-extrabold text-4xl lg:text-5xl text-center pt-8 pb-6 md:pt-24 md:pb-16 ">
         <h1>NEW ARRIVALS</h1>
       </div>
@@ -53,7 +53,7 @@ export default function NewArrivals() {
           </div>
         ))}
       </div>
-      <div className="px-4 py-6 md:flex md:justify-center    ">
+      <div className="px-4 pt-12 pb-16 md:flex md:justify-center border-b-2   ">
         <button className="w-full md:w-[15%]   rounder-full border-2 border-[#B3B3B3] py-4 rounded-full">
           View All
         </button>

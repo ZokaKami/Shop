@@ -6,7 +6,7 @@ import ReviewSlider from "./reviewSlider.tsx";
 
 export default function Reviews() {
   return (
-    <div className="px-4 md:px-12 xl:px-16  md:pt-24 xl:pt-36">
+    <div className="px-8 md:px-16 xl:px-24  md:pt-24 xl:pt-36">
       <div className="flex items-center justify-between    py-4">
         {/* Heading */}
         <h2 className="text-2xl md:text-3xl xl:text-5xl font-extrabold">

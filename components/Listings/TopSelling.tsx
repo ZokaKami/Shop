@@ -4,11 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faStarHalf } from "@fortawesome/free-solid-svg-icons";
 export default function TopSelling() {
   return (
-    <div className="border-b-2 md:pb-12 px-4 md:px-12 xl:px-16 ">
+    <div className="  md:pb-12 px-8 md:px-16 xl:px-24  ">
       <div className="font-extrabold text-4xl lg:text-5xl text-center pt-8 pb-6 md:pt-24 md:pb-16 ">
         <h1>TOP SELLING</h1>
       </div>
-      <div className="grid grid-cols-2 md:flex md:justify-center gap-4 px-4 md:px-12  xl:px-0">
+      <div className="grid grid-cols-2 md:flex md:justify-center gap-4 px-4 md:px-12  xl:px-0  ">
         {TopSellingJson.map((i) => (
           <div className=" w-full  space-y-2 font-satoshi">
             <div>
@@ -53,7 +53,7 @@ export default function TopSelling() {
           </div>
         ))}
       </div>
-      <div className="px-4 py-6 md:flex md:justify-center    ">
+      <div className="px-4 pt-12 md:flex md:justify-center    ">
         <button className="w-full md:w-[15%]   rounder-full border-2 border-[#B3B3B3] py-4 rounded-full">
           View All
         </button>

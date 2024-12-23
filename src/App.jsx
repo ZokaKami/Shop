@@ -28,8 +28,8 @@ function App() {
       <Sections/>
       <Reviews/>
       <Newsletter/>
-      <div className="md:grid md:grid-cols-6 bg-[#F2F0F1]   md:pt-8">
-      <div className="col-span-2">
+      <div className="md:grid md:grid-cols-6 bg-[#F2F0F1]   md:pt-8  ">
+      <div className="col-span-2 ">
         <Socials/>
        </div>
        <div className="col-span-4">
