@@ -23,9 +23,9 @@ export default function Sections() {
   ];
 
   return (
-    <div className=" px-8 md:px-16 xl:px-24 md:pt-16">
+    <div className=" px-8 md:px-16 xl:px-24 md:pt-16 pt-8">
       <div className="bg-[#F2F0F1] px-4 py-6 rounded-3xl space-y-4 md:pb-8 xl:pb-16  gap-4">
-        <h1 className="font-extrabold text-2xl md:text-4xl xl:text-5xl text-center py-6  xl:py-12">
+        <h1 className="font-extrabold text-4xl  xl:text-6xl text-center py-6  xl:py-12">
           BROWSE BY DRESS STYLE
         </h1>
         <div className=" md:grid grid-cols-5     hidden md:px-4 xl:px-12  ">

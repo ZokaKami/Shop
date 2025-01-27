@@ -41,7 +41,7 @@ export default function NewArrivals() {
                 </p>
               </div>
               <div className="flex gap-[4px]  text-satoshi font-semibold  ">
-                <p className="font-bold">{i.price}</p>
+                <p className="font-bold text-[16px]">{i.price}</p>
                 <p className="line-through text-[#B3B3B3]">{i.sale}</p>
                 {i.off ? (
                   <p className="text-red-500 py-[2px] px-2 rounded-3xl text-[0.5rem] md:text-xs  my-auto bg-[#FFEBEB]">
